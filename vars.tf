@@ -64,7 +64,7 @@ variable "nat_core_fraction" {
 }
 
 variable "nat_disk_type" {
-  default     = "network-ssd"
+  default     = "network-hdd"
   description = "Type of boot disk used in NAT instance (network-hdd or network-ssd)"
 }
 
